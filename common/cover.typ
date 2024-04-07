@@ -25,17 +25,18 @@
   
   // --- Cover ---
   v(1cm)
-  align(center, image("../figures/logo.png", width: 26%))
+  align(center, image("../figures/uws-logo.svg", width: 26%))
 
   v(5mm)
-  align(center, text(font: sans-font, 2em, weight: 700, "Technical University of Munich"))
+  align(center, text(font: sans-font, 2em, weight: 700, "University of the West of Scotland"))
 
   v(5mm)
-  align(center, text(font: sans-font, 1.5em, weight: 100, "School of Computation, Information and Technology \n -- Informatics --"))
+  align(center, text(font: sans-font, 1.5em, weight: 100, "School of Computing, Engineering and Physical Sciences"))
   
   v(15mm)
 
-  align(center, text(font: sans-font, 1.3em, weight: 100, degree + "’s Thesis in " + program))
+  // align(center, text(font: sans-font, 1.3em, weight: 100, degree + "’s Thesis in " + program))
+  align(center, text(font: sans-font, 1.3em, weight: 100, degree + " Thesis"))
   v(15mm)
   
 

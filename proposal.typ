@@ -5,25 +5,21 @@
 
 #titlepage(
   title: titleEnglish,
-  titleGerman: titleGerman,
   degree: degree,
   program: program,
   supervisor: supervisor,
   advisors: advisors,
   author: author,
-  startDate: startDate,
   submissionDate: submissionDate
 )
 
 #show: project.with(
   title: titleEnglish,
-  titleGerman: titleGerman,
   degree: degree,
   program: program,
   supervisor: supervisor,
   advisors: advisors,
   author: author,
-  startDate: startDate,
   submissionDate: submissionDate
 )
 

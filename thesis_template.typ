@@ -1,16 +1,14 @@
 #let project(
   title: "",
-  titleGerman: "",
   degree: "",
   program: "",
   supervisor: "",
   advisors: (),
   author: "",
-  startDate: none,
   submissionDate: none,
   body,
 ) = {
-  set document(title: title, author: author)
+  // set document(title: title, author: author)
   set page(
     margin: (left: 30mm, right: 30mm, top: 40mm, bottom: 40mm),
     numbering: "1",

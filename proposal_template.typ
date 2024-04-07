@@ -3,13 +3,11 @@
 // Go ahead and customize it to your liking!
 #let project(
   title: "",
-  titleGerman: "",
   degree: "",
   program: "",
   supervisor: "",
   advisors: (),
   author: "",
-  startDate: none,
   submissionDate: none,
   body,
 ) = {
