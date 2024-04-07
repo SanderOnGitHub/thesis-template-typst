@@ -46,6 +46,8 @@
 )
 #include "chapters/01_introduction.typ"
 
+#include "chapters/02_theory.typ"
+
 = Background
 #rect(
   width: 100%,
