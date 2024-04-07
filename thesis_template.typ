@@ -93,6 +93,13 @@
   heading(numbering: none)[Appendix A: Supplementary Material]
   include("thesis_typ/appendix.typ")
 
+  // Glossary.
+  pagebreak()
+  heading(numbering: none)[Glossary]
+  v(10mm) // Add some space before the glossary.
+  include("thesis_typ/glossary.typ")
+
+  // Bibliography.
   pagebreak()
   bibliography("thesis.bib")
 }
