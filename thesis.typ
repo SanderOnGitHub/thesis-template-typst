@@ -3,8 +3,7 @@
 #import "common/titlepage.typ": *
 #import "thesis_typ/disclaimer.typ": *
 #import "thesis_typ/acknowledgement.typ": *
-#import "thesis_typ/abstract_en.typ": *
-#import "thesis_typ/abstract_de.typ": *
+#import "chapters/00_abstract.typ": *
 #import "common/metadata.typ": *
 
 
@@ -34,9 +33,7 @@
 
 #acknowledgement()
 
-#abstract_en()
-
-#abstract_de()
+#abstract()
 
 #show: project.with(
   title: titleEnglish,
