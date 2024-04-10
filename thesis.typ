@@ -45,8 +45,10 @@
   submissionDate: submissionDate
 )
 #include "chapters/01_introduction.typ"
-
 #include "chapters/02_theory.typ"
+#include "chapters/03_methods.typ"
+#include "chapters/04_results.typ"
+#include "chapters/05_discussion.typ"
 
 = Background
 #rect(
